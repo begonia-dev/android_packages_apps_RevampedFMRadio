@@ -21,7 +21,7 @@ package com.android.fmradio;
  */
 public class FmNative {
     static {
-        System.loadLibrary("mtkfmjni");
+        System.loadLibrary("fmjni");
     }
 
     /**
