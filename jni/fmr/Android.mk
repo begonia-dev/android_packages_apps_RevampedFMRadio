@@ -37,5 +37,6 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_MODULE := libmtkfmjni
 LOCAL_MODULE_TAGS := optional
+LOCAL_CFLAGS += -Wno-unused-parameter -Wno-unused-but-set-variable -Wno-unused-variable
 
 include $(BUILD_SHARED_LIBRARY)
